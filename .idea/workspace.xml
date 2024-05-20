@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34238c1f-5cb1-4d80-b985-a3504ebb021c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/Clients.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/FactoryJSON-RPC.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/FactoryRPC.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/FactoryGRPC.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service/.env" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service/internal/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/internal/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/internal/service/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +21,7 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.8" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/GEO_Service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -38,6 +30,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2gAyQSsAso1UOxfX8CqySRQyhNV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
