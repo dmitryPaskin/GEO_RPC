@@ -27,8 +27,8 @@ type Geocoder struct{}
 func (g *Geocoder) SearchService(request SearchRequest, reply *[]*model.Address) error {
 	log.Println(reply)
 	cleanApi := dadata.NewCleanApi(client.WithCredentialProvider(&client.Credentials{
-		ApiKeyValue:    "9a84b6e525fb548e7170b77175e9e15af84a30ac",
-		SecretKeyValue: "6ecfe8510311d14daf5de31de9a5af4ceeb5b0d5"}))
+		ApiKeyValue:    "e6b91900da8a4f3c5138bc921a882ee75d42922a",
+		SecretKeyValue: "943062a0ae098458484fa91f7947fd31c3f549df"}))
 	addresses, err := cleanApi.Address(context.Background(), request.Query)
 	if err != nil {
 		return err
@@ -40,8 +40,8 @@ func (g *Geocoder) SearchService(request SearchRequest, reply *[]*model.Address)
 
 func (g *Geocoder) GeocodeAddressService(request GeocodeRequest, reply *[]*model.Address) error {
 	cleanApi := dadata.NewCleanApi(client.WithCredentialProvider(&client.Credentials{
-		ApiKeyValue:    "9a84b6e525fb548e7170b77175e9e15af84a30ac",
-		SecretKeyValue: "6ecfe8510311d14daf5de31de9a5af4ceeb5b0d5"}))
+		ApiKeyValue:    "e6b91900da8a4f3c5138bc921a882ee75d42922a",
+		SecretKeyValue: "943062a0ae098458484fa91f7947fd31c3f549df"}))
 	addresses, err := cleanApi.Address(context.Background(), request.Lat, request.Lon)
 	if err != nil {
 		return err

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"GeoServiseAppDate/RPC/internal/service"
+	"GeoServiseAppDate/JSON-RPC/internal/service"
 	"log"
 	"net"
 	"net/rpc"
+	"net/rpc/jsonrpc"
 )
 
 func main() {
@@ -13,19 +14,18 @@ func main() {
 		log.Fatal(err)
 	}
 
-	l, err := net.Listen("tcp", ":1234")
+	l, err := net.Listen("tcp", ":4321")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	log.Println("Сервер запущен, ожидание вызовов...")
-	
+	log.Println("Сервер запущен, ожидание вызовов... На порту: 4321.")
+
 	for {
 		conn, err := l.Accept()
 		if err != nil {
 			log.Fatal(err)
 		}
-		go rpc.ServeConn(conn)
+		go jsonrpc.ServeConn(conn)
 	}
-
 }
