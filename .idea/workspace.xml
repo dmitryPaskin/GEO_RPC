@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34238c1f-5cb1-4d80-b985-a3504ebb021c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/Clients.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/FactoryGRPC.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/FactoryJSON-RPC.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/FactoryRPC.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/RPC/internal/models/models.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/FactoryGRPC.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GEO_Service/.env" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GEO_Service/internal/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/internal/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GEO_Service/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/internal/service/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New_GEO_Service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ServersRPC/RPC/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ServersRPC/RPC/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/ServersRPC/RPC/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/ServersRPC/RPC/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/ServersRPC/RPC/internal/service/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +29,7 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.8" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/GEO_Service" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -78,6 +67,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/RPC/RPC/internal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build GeoServiseAppDate/JSON-RPC/cmd">
