@@ -2,6 +2,7 @@ package ClientsRPC
 
 import (
 	"GeoServiseAppDate/internal/service"
+	"GeoServiseAppDate/pkg/ClientsRPC/gRPC"
 	"fmt"
 	"os"
 )
@@ -18,8 +19,8 @@ func GetRPCProtocol() (FactoryRPC, error) {
 		return &RPC{}, nil
 	case "JSON-ServersRPC":
 		return &JSONRPC{}, nil
-		//	case "gRPC":
-		//		return
+	case "gRPC":
+		return &gRPC.GRPC{}, nil
 	}
 	return nil, fmt.Errorf("%s", "protocol not found")
 }

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34238c1f-5cb1-4d80-b985-a3504ebb021c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/proto/geo.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/api/GeoService/geo.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/cmd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/internal/service/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service/.env" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/Clients.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/Clients.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/FactoryGRPC.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/FactoryGRPC.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.8" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2gAyQSsAso1UOxfX8CqySRQyhNV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/xp/go/src/studentgit.kata.academy/xp/GeoServiseAppDate/ServersRPC/gRPC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ServersRPC/gRPC" />
+      <recent name="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/proto" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/RPC/RPC/internal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build GeoServiseAppDate/ServersRPC/gRPC/cmd">
+    <configuration name="go build GeoServiseAppDate/JSON-RPC/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GeoServiseAppDate" />
+      <working_directory value="$PROJECT_DIR$/RPC/JSON-RPC" />
+      <kind value="PACKAGE" />
+      <package value="GeoServiseAppDate/JSON-RPC/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/RPC/JSON-RPC/cmd/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GeoServiseAppDate/RPC/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GeoServiseAppDate" />
+      <working_directory value="$PROJECT_DIR$/RPC" />
+      <kind value="PACKAGE" />
+      <package value="GeoServiseAppDate/RPC/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/RPC/cmd/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GeoServiseAppDate/ServersRPC/gRPC/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GeoServiseAppDate" />
+      <working_directory value="$PROJECT_DIR$/ServersRPC/gRPC" />
+      <kind value="PACKAGE" />
+      <package value="GeoServiseAppDate/ServersRPC/gRPC/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ServersRPC/gRPC/cmd/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build GeoServiseAppDate/ServersRPC/gRPC/cmd" />
+        <item itemvalue="Go Build.go build GeoServiseAppDate/JSON-RPC/cmd" />
+        <item itemvalue="Go Build.go build GeoServiseAppDate/RPC/cmd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.15989.157" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-GO-241.15989.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

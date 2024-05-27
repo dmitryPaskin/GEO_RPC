@@ -11,13 +11,23 @@ services:
 #    networks:
 #      - mylocal
 
-  json-rpc:
-    container_name: json-rpc
+#  json-rpc:
+#    container_name: json-rpc
+#    build:
+#      context: ./ServersRPC/JSON-RPC
+#      dockerfile: Dockerfile
+#    ports:
+#      - "4321:4321"
+#    networks:
+#      - mylocal
+
+  grpc:
+    container_name: gRPC
     build:
-      context: ./ServersRPC/JSON-RPC
+      context: ./ServersRPC/gRPC
       dockerfile: Dockerfile
     ports:
-      - "4321:4321"
+      - "50051:50051"
     networks:
       - mylocal
 
