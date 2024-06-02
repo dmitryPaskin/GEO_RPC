@@ -12,8 +12,8 @@ import (
 )
 
 const (
-	urlAddress = "https://cleaner.dadata.ru/api/v1/clean/address"
-	urlGeocode = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/geolocate/address"
+	UrlAddress = "https://cleaner.dadata.ru/api/v1/clean/address"
+	UrlGeocode = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/geolocate/address"
 )
 
 type Service interface {
@@ -36,7 +36,7 @@ func (s *service) Address(request models.SearchRequest) ([]*models.AddressSearch
 	defer func() {
 		duration := time.Since(start).Seconds()
 		metrics.DBDuration.With(prometheus.Labels{
-			"method": "POST", "path": urlAddress}).
+			"method": "POST", "path": UrlAddress}).
 			Observe(duration)
 	}()
 
@@ -47,7 +47,7 @@ func (s *service) Address(request models.SearchRequest) ([]*models.AddressSearch
 		return nil, err
 	}
 
-	req, err := http.NewRequest("POST", urlAddress, bytes.NewBuffer(requestBody))
+	req, err := http.NewRequest("POST", UrlAddress, bytes.NewBuffer(requestBody))
 	if err != nil {
 		return nil, err
 	}
@@ -79,7 +79,7 @@ func (s *service) Geocode(request models.GeocodeRequest) (*models.AddressGeo, er
 	defer func() {
 		duration := time.Since(start).Seconds()
 		metrics.DBDuration.With(prometheus.Labels{
-			"method": "POST", "path": urlGeocode}).
+			"method": "POST", "path": UrlGeocode}).
 			Observe(duration)
 	}()
 
@@ -90,7 +90,7 @@ func (s *service) Geocode(request models.GeocodeRequest) (*models.AddressGeo, er
 		return nil, err
 	}
 
-	req, err := http.NewRequest("POST", urlGeocode, bytes.NewBuffer(requestBody))
+	req, err := http.NewRequest("POST", UrlGeocode, bytes.NewBuffer(requestBody))
 	if err != nil {
 		return nil, err
 	}

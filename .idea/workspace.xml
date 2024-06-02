@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34238c1f-5cb1-4d80-b985-a3504ebb021c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/proto/geo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/api/GeoService/geo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/cmd/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServersRPC/gRPC/internal/service/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service/.env" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GEO_Service/unitTests/controller_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GEO_Service/unitTests/service_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9777f72a-a326-4c65-8912-a15a39a71e88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9777f72a-a326-4c65-8912-a15a39a71e88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9777f72a-a326-4c65-8912-a15a39a71e88/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9777f72a-a326-4c65-8912-a15a39a71e88/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GEO_Service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GEO_Service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/Clients.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/Clients.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/FactoryGRPC.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/pkg/ClientsRPC/gRPC/FactoryGRPC.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEO_Service/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_Service/internal/service/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServersRPC/JSON-RPC/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/ServersRPC/JSON-RPC/internal/service/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/xp/go/src/studentgit.kata.academy/xp/GeoServiseAppDate/ServersRPC/gRPC",
+    "last_opened_file_path": "/home/xp/go/src/studentgit.kata.academy/xp/GEO_API",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"

@@ -18,8 +18,8 @@ type GeocodeRequest struct {
 }
 
 type GeoService interface {
-	SearchService(request *SearchRequest, reply []*model.Address) error
-	GeocodeAddressService(cords string, reply *string) error
+	SearchService(request SearchRequest, reply *[]*model.Address) error
+	GeocodeAddressService(request GeocodeRequest, reply *[]*model.Address) error
 }
 
 type Geocoder struct{}
